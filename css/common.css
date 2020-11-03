@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #f2f2f2;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+img {
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*组件库*/
+.main_wrap {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.response {
+    width: 100%;
+    height: 420px;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    display: block;
+}
+
+/*footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-top: 5px;
+    background: #fff;
+}
+
+.footer li {
+    float: left;
+    width: 25%;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer li.active {
+    color: #43cb41;
+}
+
+.footer i {
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.footer b {
+    position: absolute;
+    top: -3px;
+    left: 55%;
+    background: #f47929;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*header*/
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #00be3a;
+    padding: 0 50px;
+    color: #fff;
+    z-index: 1000;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header .btn {
+    position: absolute;
+    top: 0;
+    display: block;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .backBtn {
+    left: 0;
+    font-size: 30px;
+}
+
+.header .cancelBtn {
+    right: 0;
+    font-size: 16px;
+}
+
+.header input {
+    height: 40px;
+    display: block;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding-left: 50px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header div {
+    position: relative;
+    height: 100%;
+    top: 5px;
+}
+
+.header div i {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+/*btn*/
+.bigBtn {
+    height: 50px;
+    line-height: 50px;
+    background: #00be3a;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.smallBtn {
+    background: #12b8f6;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    padding: 2px 5px;
+    display: inline-block;
+}
+
+.normalBtn {
+    background: #00be3a;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*橙色*/
+.orange {
+    color: #f47929;
+}
+
+.orange_b {
+    background: #f47929;
+}
+
+/*浅灰*/
+.gray {
+    color: #b9b9b9;
+}
+
+
+/*后台组件*/
+/*后台表格backTable*/
+.backTable {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.backTable th,
+.backTable td {
+    border: none;
+    padding: 10px 0;
+}
+
+.backTable th {
+    background: #12b8f6;
+    color: #fff;
+    font-weight: normal;
+}
+
+.backTable td {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.backTable tr:hover {
+    background: #f7f2f2;
+}
+
+.backTable th.addr {
+    width: 300px;
+}
+
+.backTable span {
+    color: #12b8f6;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.backTable span:last-child {
+    margin-bottom: 0;
+}
+
+.backTable img.thum {
+    height: 50px;
+}
+
+.backTable tr td:first-child {
+    padding: 0 5px;
+}
+
+/*info*/
+.backInfo {
+    color: #ff6600;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+/*pageNav*/
+.pageNav {
+    overflow: auto;
+    text-align: right;
+    font-size: 14px;
+    padding: 0 50px 10px 0;
+}
+
+.pageNav li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pageNav li.info {
+    cursor: auto;
+}
+
+.pageNav li.btn {
+    background: #12b8f6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pageNav li input {
+    text-align: center;
+    width: 50px;
+    margin: 0 5px;
+}
+
+
+/*滚动条垂直方向的宽度*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* 垂直滚动条的滑动块 */
+::-webkit-scrollbar-thumb:vertical {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, .3);
+    background-color: rgba(18, 184, 246, 0.5);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+/*searchBack*/
+.searchBack {
+    width: 980px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.searchBack li {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.searchBack input,
+.searchBack select {
+    height: 25px;
+    padding: 0 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.searchBack .btn,
+.addMini {
+    height: 30px;
+    text-align: center;
+    background: #12b8f6;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.must {
+    color: #f00;
+    margin-right: 5px;
+}
+
+[v-cloak] {
+    display: none;
+}

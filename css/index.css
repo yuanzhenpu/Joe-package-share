@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_wrap {
+    padding-bottom: 50px;
+    /* padding: 10px; */
+}
+
+/*nav*/
+.nav {
+    background: #00ac8b;
+    padding: 5px 0;
+}
+
+.nav li {
+    float: left;
+    width: 50%;
+    color: #d6d2d6;
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.nav li div {
+    padding: 5px 0;
+}
+
+.nav li.active div {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*content*/
+.content {
+    background: #fea11e;
+    padding: 10px 40px;
+}
+
+.content li {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content li input {
+    border: none;
+    border-left: 1px solid #bbb;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.content li.code div {
+    padding-right: 100px;
+}
+
+.content li.code span {
+    display: block;
+    width: 90px;
+    background: #ff4242;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.content li.code span.no {
+    background: #bbb;
+}
+
+.bigBtn {
+    background: #ff4242;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* 企业品宣 */
+.product_propaganda {
+    /* width: 1200px; */
+    /* max-width: 1200px; */
+    margin: 40px auto;
+}
+
+.product_propaganda_icon {
+    max-width: 40px;
+    height: 40px;
+}
+
+.propaganda_txt {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.product_propaganda_divOne {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product_propaganda_divTwo {
+    margin-top: 20px;
+}
+
+.bule_back {
+    background: #268fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.ren_nan_zhao_txt {
+    font-size: 22px;
+    color: #333;
+
+}
+
+.ren_nan_zhao_ul {
+    text-align: center;
+}
+
+.ren_nan_zhao_ul li {
+    margin-top: 20px;
+}
+
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.bule_back_fff {
+    border: 2px solid #268fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #268fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.employee_sharing_txt {}
+
+.employee_sharing_txtOne {
+    font-size: 20px;
+}
+
+.employee_sharing_txtOne_div {
+    display: flex;
+    align-items: center;
+}
+
+.employee_sharing_row {
+    margin: 0 auto;
+}
+
+.gongxiang_img {
+    /* background-image: url(/img/gongxiang.png); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+    .topNavRight li {
+        padding-left: 10px !important;
+        line-height: 25px !important;
+    }
+
+    .login_reg_div {
+        min-width: 58% !important;
+    }
+
+    .topNavRight {
+        width: 140% !important;
+    }
+
+    .top_nav a {
+        font-size: 17px !important;
+    }
+
+    .bottom_nav {
+        max-height: 275px !important;
+    }
+
+    .web_logo,
+    .web_logo img {
+        width: 150px !important;
+        height: 47px !important;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .topNavRight {
+        width: 40% !important;
+        margin-left: 80px;
+    }
+
+    .topNavRight li {
+        line-height: 25px !important;
+    }
+
+    .top_nav a {
+        font-size: 12px !important;
+    }
+
+    .web_logo,
+    .web_logo img {
+        width: 100px !important;
+        height: 32px !important;
+    }
+
+    .bottom_nav {
+        max-height: 285px !important;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 1100px) {
+    .gongxiang_img {
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .response {
+        height: auto;
+    }
+
+    .shouji_img {
+        width: 200px !important;
+    }
+
+    .wenziicon {
+        width: 50px !important;
+    }
+
+    .lanmu_txt_img_div {
+        margin-top: 40px !important;
+    }
+
+    .lanmu_div {
+        text-align: center !important;
+    }
+
+    .textAlignC {
+        text-align: center;
+    }
+
+    .lanmu_describe {
+        margin-top: 20px !important;
+    }
+
+    .lanmu_txt {
+        font-size: 25px !important;
+    }
+
+    .quannian_main_div {
+        margin-top: 20px !important;
+    }
+
+    .txt_si {
+        font-size: 40px !important;
+    }
+
+    .page_describe,
+    .h5derve_describe,
+    .fu_wu_ping_jia_txt {
+        margin-top: 20px !important;
+    }
+
+    .txt_ci_nian {
+        font-size: 30px !important;
+    }
+
+    .h5serve_txt_img_div,
+    .zhizuoppt_txt_img_div,
+    .qiyemeigong_txt_img_div,
+    .pengyouquan_txt_img_div,
+    .shouhou_txt_img_div {
+        margin-top: 40px !important;
+    }
+
+    .h5serve_img,
+    .pengyouquan_img {
+        height: auto !important;
+    }
+
+    .post_sales_service_txt {
+        font-size: 30px !important;
+    }
+
+    .login_reg_div {
+        width: auto !important;
+    }
+
+    .web_logo {
+        margin: auto !important;
+    }
+
+    .bottom_nav {
+        height: 510px !important;
+    }
+
+    .three_icon {
+        margin-bottom: 10px;
+    }
+
+    .three_icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .login_reg_div img {
+        margin-left: 5px !important;
+    }
+
+}
+
+.employee_sharing {
+    margin-top: 20px;
+}
+
+.employee_sharing_content {
+    margin-top: 30px;
+}
+
+.fontSize30 {
+    font-size: 30px !important;
+}
+
+.redTxt {
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.hire_employees {
+    margin-top: 40px;
+}
+
+.product_propaganda_img {
+    width: 100%;
+    height: 410px;
+}
+
+.product_propaganda_explain_txt>* {
+    font-size: 30px;
+}
+
+.product_propaganda_explain {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 企业品宣 结束 */
+
+/* “共享员工”服务详情 */
+
+.service_details {
+    margin-top: 40px;
+}
+
+.service_details_title_div {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.service_details_title {
+    font-size: 40px;
+}
+
+.shouji_div {
+    margin: 0 auto;
+}
+
+.shouji_img {
+    width: 500px;
+}
+
+.wenziicon {
+    width: 80px;
+}
+
+.lanmu_txt_img_div {
+    margin-top: 160px;
+}
+
+.lanmu_txt {
+    font-size: 35px;
+    font-weight: 800;
+    color: #333;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.lanmu_div {
+    margin-top: 40px;
+}
+
+.textAlignC {
+    text-align: center;
+}
+
+.lanmu_describe {
+    margin-top: 40px;
+}
+
+.lanmu_describe span {
+    font-size: 20px;
+    color: #666;
+}
+
+.quannian_main_div {
+    margin-top: 40px;
+}
+
+/* 页面模板规划及制作 */
+.txt_si {
+    font-size: 100px;
+}
+
+.txt_ci_nian {
+    font-size: 30px;
+}
+
+.page_describe {
+    font-size: 20px;
+    color: #666;
+    margin-top: 40px;
+}
+
+.txt_si_ci_nain {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.txt_si_ci_nain span {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* 页面模板规划及制作 结束*/
+
+/* H5服务 */
+.h5derve_describe {
+    margin-top: 40px;
+}
+
+.h5serve_img {
+    width: 100%;
+    height: 400px;
+}
+
+.h5serve_txt_img_div {
+    margin-top: 150px;
+}
+
+.h5derve_span_one {
+    font-size: 25px;
+    color: #333;
+}
+
+.h5derve_span_two {
+    font-size: 20px;
+    color: #666;
+}
+
+.qiyemeigong_txt_img_div {
+    margin-top: 90px;
+}
+
+/* H5服务 结束*/
+
+/* 制作企业宣传PPT */
+
+.zhizuoppt_span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.zhizuoppt_txt_img_div {
+    margin-top: 60px;
+}
+
+/* 制作企业宣传PPT 结束 */
+
+/* 朋友圈广告推广 */
+.pengyouquan_txt_img_div {
+    margin-top: 120px;
+}
+
+.pengyouquan_img {
+    width: 100%;
+    height: 450px;
+}
+
+/* 朋友圈广告推广 结束*/
+
+/* 售后服务 */
+.post_sales_service_txt {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.shouhou_txt_img_div {
+    margin-top: 85px;
+}
+
+.shouhou_describe {
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.fu_wu_ping_jia_txt {
+    margin-top: 40px;
+}
+
+/* 售后服务 结束*/
+
+/* “共享员工”服务详情 结束 */
+
+/* 团队介绍 */
+.team_introduction_main {
+    margin-top: 40px;
+}
+
+.team_introduction_ul li {
+    margin-top: 20px;
+    width: 55%;
+    display: inline-block;
+}
+
+.quan_1 {
+    border-radius: 50px;
+    border: 1px solid #268fff;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: blue;
+    position: absolute;
+    /* left: 66px; */
+}
+
+.team_introduction_title {
+    left: 38%;
+    position: absolute;
+    color: #268fff;
+}
+
+.width250 {
+    width: 225px;
+}
+
+.fff_back {
+    background: #fff;
+    border: 2px solid #268fff;
+    height: 54px;
+}
+
+.yellow_back {
+    background: #ffc000;
+}
+
+.gree_back {
+    background: #00b050;
+}
+
+.red_back {
+    background: #ff6849;
+}
+
+.aque_back {
+    background: #14b5eb;
+}
+
+.lv_back {
+    background: #42ff00;
+}
+
+/* 团队介绍 结束*/
+
+/* 案例展示 */
+.case_show {
+    margin-top: 40px;
+}
+
+.case_item_img {
+    width: 100%;
+}
+
+.obtain_txt {
+    font-size: 35px;
+    margin: 0 auto;
+    width: 32%;
+    text-align: center;
+    border-bottom: 3px solid;
+    color: #268fff;
+    padding-bottom: 15px;
+}
+
+.marginTop40 {
+    margin-top: 40px;
+}
+
+/* 案例展示 结束*/
+
+/* 顶部 */
+.login_reg_div,
+.topNavRight {
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+}
+
+.top_header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNavRight ul {
+    margin: auto 0 auto auto;
+}
+
+.topNavRight li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.topNavRight ul span {
+    border-left: 1px solid;
+    height: 10px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.phone_icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.login_reg_div img {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+/* 顶部 结束*/
+
+/* 顶部导航 */
+.a_after {
+    border-bottom: 4px solid #2C6BEA;
+    padding-bottom: 15px;
+    color: #2C6BEA !important;
+    font-weight: 600;
+}
+
+.web_logo,
+.web_logo img {
+    width: 211px;
+    height: 67px;
+    margin: auto auto auto 0;
+}
+
+.top_nav_main {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_nav a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top_nav a:nth-of-type(n+2) {
+    margin-left: 15px;
+}
+
+/* 顶部导航 结束*/
+
+/* 搜索 */
+.search_box {
+    height: 50px;
+    display: flex;
+    margin-bottom: 40px;
+    /* justify-content: space-between; */
+}
+
+.location_explain {
+    display: flex;
+    align-items: center;
+}
+
+.blue_txt {
+    color: #3671EB;
+}
+
+.current_position_txt {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+/* 搜索 结束*/
+
+/* 底部导航 */
+.bottom_nav {
+    background: #1F1F24;
+    height: 275px;
+}
+
+.bottom_site {
+    height: 50px;
+    background: #141417;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.foot_tab {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.foot_tab_service,
+.foot_tab_about,
+.foot_tab_cooperation,
+.foot_tab_contact {
+    margin: 50px 0 0 0;
+}
+
+.foot_tab_service li:nth-of-type(n+2),
+.foot_tab_about li:nth-of-type(n+2),
+.foot_tab_cooperation li:nth-of-type(n+2),
+.foot_tab_contact li:nth-of-type(n+2) {
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.foot_tab_title {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.fangkuai_icon {
+    position: absolute;
+    left: -5px;
+    width: 15px;
+    height: 15px;
+}
+
+.records_txt {
+    color: #979797;
+}
+
+.foot_tab a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.three_icon img:nth-of-type(n+2) {
+    margin-left: 10px;
+}
+
+/* 底部导航 结束*/
+
+/* 移动端顶部导航 */
+.mobile_unfold_nav {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.mobile_unfold_nav_img {
+    width: 30px;
+    height: 30px;
+}
+
+.mobile_top_nav_main {
+    position: absolute;
+    background: #fff;
+    width: 50%;
+    right: 0;
+    padding: 15px;
+    z-index: 111111;
+    display: none;
+}
+
+.mobile_web_logo,
+.mobile_web_logo img {
+    width: 100px;
+    height: 32px;
+}
+
+.mobile_top_nav_show {
+    display: inline-block;
+}
+
+.mobile_top_nav {
+    display: grid;
+}
+
+.mobile_top_nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mobile_top_nav a {
+    margin-top: 20px;
+}
+
+/* 移动端顶部导航 结束*/

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="./css/base.css" rel="stylesheet" />
+    <link href="./css/common.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 顶部 -->
+        <div class="top_header container">
+            <div class="login_reg_div">
+                <span>欢迎来到招标发布平台！</span>
+                <img src="./img/loginicon.png" alt="">
+                <span>请登录</span>
+                <img src="./img/regidon.png" alt="">
+                <span>用户注册</span>
+            </div>
+            <!-- 移动端 导航展开按钮-->
+            <div class="mobile_unfold_nav visible-xs-inline-block">
+                <img class="mobile_unfold_nav_img" src="./image/menu-button-bg.png" alt="">
+            </div>
+            <!-- 移动端 导航展开按钮 结束-->
+            <div class="topNavRight hidden-xs">
+                <ul>
+                    <li>我的</li>
+                    <span></span>
+                    <li>订单</li>
+                    <span></span>
+                    <li>咨询中心</li>
+                    <span></span>
+                    <li><a href="javascript:ec_cs_fnDialogOK()" style="color: inherit;">在线客服</a></li>
+                    <span></span>
+                    <li>招标app</li>
+                    <li style="margin-left: 10px;">
+                        <img class="phone_icon" src="./img/dianhua.png" alt="">
+                        021-32080369
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 顶部 结束-->
+
+        <!-- 顶部导航 -->
+        <div class="top_nav_main container hidden-xs">
+            <!-- logo -->
+            <div class="web_logo">
+                <img src="./img/googlelogo.png" alt="">
+            </div>
+            <!-- 导航 -->
+            <div class="top_nav">
+                <a href="#">首页</a>
+                <a href="#" class="a_after">共享员工</a>
+                <a href="#">招标信息</a>
+                <a href="#">服务项目</a>
+                <a href="#">服务招募</a>
+                <a href="#">新闻资讯</a>
+                <a href="#">帮助中心</a>
+                <a href="#">问答中心</a>
+                <a href="#">关于我们</a>
+            </div>
+        </div>
+        <!-- 顶部导航 结束-->
+
+        <!-- 移动端顶部导航 -->
+        <div class="mobile_top_nav_main">
+            <!-- logo -->
+            <div class="mobile_web_logo">
+                <img src="./img/googlelogo.png" alt="">
+            </div>
+            <!-- 导航 -->
+            <div class="mobile_top_nav">
+                <a href="#">首页</a>
+                <a href="#" class="a_after">共享员工</a>
+                <a href="#">招标信息</a>
+                <a href="#">服务项目</a>
+                <a href="#">服务招募</a>
+                <a href="#">新闻资讯</a>
+                <a href="#">帮助中心</a>
+                <a href="#">问答中心</a>
+                <a href="#">关于我们</a>
+            </div>
+        </div>
+        <!-- 移动端顶部导航 结束-->
+
+        <!-- 搜索框 -->
+        <div class="search_box container hidden-xs">
+            <div class="location_explain">
+                <img class="fangzi_icon" src="./img/fangzi.png" alt="">
+                <span class="current_position_txt">当前位置：首页 > <span class="blue_txt">共享员工</span></span>
+            </div>
+        </div>
+        <!-- 搜索框 结束-->
+
+        <!-- 内容 -->
+        <div class="main_wrap">
+            <img class="response" src="./img/banner.png" alt="" />
+            <!-- 企业品宣难在哪里 -->
+            <div class="product_propaganda container">
+                <!-- 标题 -->
+                <div class="row product_propaganda_main">
+                    <div class="product_propaganda_divOne col-md-4">
+                        <img class="product_propaganda_icon" src="./img/qiyepinxun.png" alt="">
+                        <span class="propaganda_txt">企业品宣难在哪里</span>
+                    </div>
+                </div>
+                <!-- 标题 结束-->
+                <div class="row product_propaganda_divTwo">
+                    <div class="col-md-4 ren_nan_zhao marginTop20">
+                        <div class="bule_back">
+                            人 难 招
+                        </div>
+                        <div class="ren_nan_zhao_txt">
+                            <ul class="ren_nan_zhao_ul">
+                                <li>人员层次单一</li>
+                                <li>人员不稳定</li>
+                                <li>工作不连续</li>
+                                <li>空闲时间多</li>
+                            </ul>
+                        </div>
+                        <div class="bule_back_fff">
+                            服务稳定性差
+                        </div>
+                    </div>
+                    <div class="col-md-4 zhuan_ye_di marginTop20">
+                        <div class="bule_back">
+                            专 业 度 低
+                        </div>
+                        <div class="ren_nan_zhao_txt">
+                            <ul class="ren_nan_zhao_ul">
+                                <li>不会策划</li>
+                                <li>不会写作</li>
+                                <li>不会设计</li>
+                                <li>不会推广</li>
+                            </ul>
+                        </div>
+                        <div class="bule_back_fff">
+                            内容质量差
+                        </div>
+                    </div>
+                    <div class="col-md-4 cheng_ben_gao marginTop20">
+                        <div class="bule_back">
+                            成 本 高
+                        </div>
+                        <div class="ren_nan_zhao_txt">
+                            <ul class="ren_nan_zhao_ul">
+                                <li>单人约5K+社保</li>
+                                <li>7万/年（1人）</li>
+                                <li>14万/年（2人）</li>
+                                <li>21万/年（3人）</li>
+                            </ul>
+                        </div>
+                        <div class="bule_back_fff">
+                            投资回报低
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+            <!-- 企业品宣难在哪里 结束-->
+
+            <!-- 共享员工定义 -->
+            <div class="employee_sharing container">
+                <!-- 标题 -->
+                <div class="row product_propaganda_main">
+                    <div class="product_propaganda_divOne col-md-4">
+                        <img class="product_propaganda_icon" src="./img/qiyepinxun.png" alt="">
+                        <span class="propaganda_txt">共享员工 定义</span>
+                    </div>
+                </div>
+                <!-- 标题 结束-->
+                <div class="row employee_sharing_content">
+                    <!-- 文字 -->
+                    <div class="row employee_sharing_row">
+                        <div class="col-md-6 employee_sharing_txtOne_div">
+                            <span class="employee_sharing_txtOne"><span class="redTxt">共享员工
+                                </span>是指平台方打造的集筹划、文案、设计、品宣、营销推广等予一体的运营团队，将其劳动力有序分配并出租服务于各级政府和企事业单位，节省单位人力成本，提高单位文案质量、互联网内容生产能力和营销推广能力的创新服务模式。</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="gongxiang_img" src="./img/gongxiang.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 文字 结束-->
+                </div>
+            </div>
+            <!-- 共享员工定义 结束-->
+
+            <!-- 您租的4个员工 -->
+            <div class="hire_employees container hidden-xs hidden-sm">
+                <!-- 标题 -->
+                <div class="row product_propaganda_main">
+                    <div class="product_propaganda_divOne col-md-4">
+                        <img class="product_propaganda_icon" src="./img/qiyepinxun.png" alt="">
+                        <span class="propaganda_txt">您租的<span class="redTxt fontSize30">4</span>个员工</span>
+                    </div>
+                    <div class="marginTop20">
+                        <!-- 说明 -->
+                        <div class="product_propaganda_explain">
+                            <span class="product_propaganda_explain_txt">
+                                <span class="redTxt">4</span>
+                                <span>个员工</span>
+                                <span class="product_propaganda_explain_line"> | </span>
+                                <span class="redTxt">10</span>
+                                <span>项服务</span>
+                                <br>
+                                <span>【我们每月只要<span class="redTxt" style="font-size: 30px;">1500</span>元】</span>
+                                <br>
+                                <span style="font-size: 20px;">（市场原价 超<span style="font-size: 20px;"
+                                        class="redTxt">36000</span>元/年）</span>
+                            </span>
+                        </div>
+                        <!-- 说明 结束-->
+                        <img class="product_propaganda_img" src="./img/zuyongyuangpmg.png" alt="">
+                    </div>
+                </div>
+                <!-- 标题 结束-->
+            </div>
+            <!-- 您租的4个员工 结束 -->
+
+            <!-- “共享员工”服务详情 -->
+            <div class="service_details">
+                <img class="response" src="./img/gongxiangyuangongxiangqing.png" alt="" />
+                <!-- 栏目规划及设计 -->
+                <div class="row shouji_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="shouji_img" src="./img/shouji.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lanmu_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/wenziicon.png" alt="">
+                            <span class="lanmu_txt">栏目规划及设计</span>
+                        </div>
+                        <div class="lanmu_describe">
+                            <span class="lanmu_describe_span_one">
+                                根据不同平台，对企业栏目进行规装修。
+                            </span>
+                            <br>
+                            <span class="lanmu_describe_span_two">
+                                栏目链接原内容网址（建议企业官网做响应式设计）或者链接图文文案。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 栏目规划及设计 结束-->
+
+                <!-- 全年图文文案 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="shouji_img" src="./img/quannian.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lanmu_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyepinxun.png" alt="">
+                            <span class="lanmu_txt">全年图文文案</span>
+                        </div>
+                        <div class="lanmu_describe">
+                            <span class="lanmu_describe_span_one">
+                                编辑部根据客户提供的素材进行创意策划、撰写、编排、发布工作（微信公众号；头条号；百家号；企鹅号；大鱼号；网易号；凤凰号；搜狐号；小红书；企业微博等任选）。
+                            </span>
+                            <br>
+                            <span class="lanmu_describe_span_two">
+                                客户需要配合编辑人员的沟通（微信，电话）。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 全年图文文案 结束-->
+
+                <!-- 页面模板规划及制作 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="shouji_img" src="./img/yemianmoban.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lanmu_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/yemianmobanicon.png" alt="">
+                            <span class="lanmu_txt">页面模板规划及制作</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                将文章整理归类，方便用户查看。利用该功能可以清晰展示产品和服务。
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">4</span>
+                                <span class="txt_ci_nian">次/年</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 页面模板规划及制作 结束-->
+
+                <!-- H5服务 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="h5serve_img" src="./img/h5.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="h5serve_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyepinxun.png" alt="">
+                            <span class="lanmu_txt">H5服务</span>
+                        </div>
+                        <div class="h5derve_describe">
+                            <span class="h5derve_span_one">
+                                制作企业介绍及主题宣传的H5页面（3套/年）
+                            </span>
+                            <br>
+                            <span class="h5derve_span_two">
+                                (含招聘H5；会议邀请H5；活动预约H5；产品H5；品牌宣传H5等)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- H5服务 结束-->
+
+                <!-- 企业美工设计 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="h5serve_img" src="./img/qiyemeigong.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="qiyemeigong_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyemeigongicon.png" alt="">
+                            <span class="lanmu_txt">企业美工设计</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                含20余个主流节目海报；企业各类产品/促销/招聘/品宣/活动等海报；三折页/宣传册/文化墙设计；logo设计；名片设计等
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">48</span>
+                                <span class="txt_ci_nian">张/年</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 企业美工设计 结束-->
+
+                <!-- 制作企业宣传PPT -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="h5serve_img" src="./img/zhizuoppy.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="zhizuoppt_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/zhizuoppticon.png" alt="">
+                            <span class="lanmu_txt">制作企业宣传PPT</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                满足企业的产品、招商、汇报、总结、计划、竞聘、BP等多种需求。
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">1</span>
+                                <span class="txt_ci_nian">套/年</span>
+                            </span>
+                            <br>
+                            <span class="zhizuoppt_span">（建议每个21页内）</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 制作企业宣传PPT 结束-->
+
+                <!-- 企业品牌推广 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="h5serve_img" src="./img/qiyepinpaituiguang.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="zhizuoppt_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyemeigongicon.png" alt="">
+                            <span class="lanmu_txt">企业品牌推广</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                负责策划撰写甲方品牌新闻一篇，并推广宣发至110家媒体；让企业品牌获得官方背书和客户信任。
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">110</span>
+                                <span class="txt_ci_nian">家媒体/新闻稿1篇</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 企业品牌推广 结束-->
+
+                <!-- 朋友圈广告推广 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="pengyouquan_img" src="./img/pengyouquan.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pengyouquan_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyemeigongicon.png" alt="">
+                            <span class="lanmu_txt">朋友圈广告推广</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                负责开通企业腾讯广告主，策划制作甲方一次朋友圈广告落地页，并提供20000-30000次曝光推广。
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">2-3W</span>
+                                <span class="txt_ci_nian">流量</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 朋友圈广告推广 结束-->
+
+                <!-- 企业抖音推广 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="pengyouquan_img" src="./img/douyin.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pengyouquan_txt_img_div textAlignC">
+                            <img class="wenziicon" src="./img/qiyemeigongicon.png" alt="">
+                            <span class="lanmu_txt">企业抖音推广</span>
+                        </div>
+                        <div class="page_describe">
+                            <span class="lanmu_describe_span_one">
+                                负责策划制作甲方一次抖音视频（创意+剪辑，不含拍摄），并提供5000次曝光推广。教会企业如果玩转短视频。
+                            </span>
+                            <br>
+                            <span class="txt_si_ci_nain">
+                                <span class="txt_si">5000</span>
+                                <span class="txt_ci_nian">流量</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 企业抖音推广 结束-->
+
+                <!-- 售后服务 -->
+                <div class="row shouji_div quannian_main_div container">
+                    <div class="col-md-6 lanmu_div">
+                        <img class="pengyouquan_img" src="./img/shouhou.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="shouhou_txt_img_div textAlignC">
+                            <div class="post_sales_service_txt">售后服务</div>
+                            <img class="wenziicon" src="./img/kefuicon.png" alt="">
+                            <span class="lanmu_txt">1对1专职服务群</span>
+                        </div>
+                        <div class="shouhou_describe textAlignC">
+                            <span class="lanmu_describe_span_one">
+                                让客户对接更舒心，更及时！
+                            </span>
+                        </div>
+                        <div class="textAlignC fu_wu_ping_jia_txt">
+                            <img class="wenziicon" src="./img/huaicon.png" alt="">
+                            <span class="lanmu_txt">服务评价</span>
+                        </div>
+                        <div class="shouhou_describe">
+                            <span class="lanmu_describe_span_one">
+                                客户可以通过每一次的任务发布在专职客服完成工作后给予评价，不满意可申请更换专职员工。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 售后服务 结束-->
+
+            </div>
+            <!-- “共享员工”服务详情 结束-->
+
+            <!-- 团队介绍 -->
+            <div class="team_introduction_main">
+                <img class="response" src="./img/tuanduijiehsou.png" alt="" />
+                <div class="container">
+                    <div class="row product_propaganda_divTwo">
+                        <div class="col-md-4 ren_nan_zhao marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">1</div>
+                                <span class="team_introduction_title">30位营销顾问</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>根据用户痛点，提供针对性方案；</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 zhuan_ye_di marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">2</div>
+                                <span class="team_introduction_title">5位信息员</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>信息收集审核</li>
+                                    <li>公众号认证</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 cheng_ben_gao marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">3</div>
+                                <span class="team_introduction_title">10余位策划</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>文案方向定位，保障运营质量</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ren_nan_zhao marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">4</div>
+                                <span class="team_introduction_title">30余位美工</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>图片处理</li>
+                                    <li>H5</li>
+                                    <li>海报</li>
+                                    <li>PPT制作</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 zhuan_ye_di marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">5</div>
+                                <span class="team_introduction_title">30余位编辑</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>素材整理</li>
+                                    <li>撰写稿件</li>
+                                    <li>精美排版</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 cheng_ben_gao marginTop20">
+                            <div class="bule_back width250 fff_back">
+                                <div class="quan_1">6</div>
+                                <span class="team_introduction_title">6位项目经理</span>
+                            </div>
+                            <div class="ren_nan_zhao_txt">
+                                <ul class="team_introduction_ul textAlignC">
+                                    <li>协调业务合作流程的相关事宜</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 团队介绍 介绍-->
+
+            <!-- 案例展示 -->
+            <div class="case_show hidden-xs">
+                <img class="response" src="./img/anlizhanshi.png" alt="">
+                <!-- 政府学校支持 -->
+                <div class="case_item container">
+                    <div class="marginTop40">
+                        <div class="obtain_txt">获得政府学校鼎力支持</div>
+                    </div>
+                    <img class="case_item_img marginTop40" src="./img/anliitem22.png" alt="">
+                </div>
+                <!-- 政府学校支持 结束-->
+
+                <!-- 行业认可 -->
+                <div class="case_item container">
+                    <div class="marginTop40">
+                        <div class="obtain_txt">获得众多行业客户认可</div>
+                    </div>
+                    <img class="case_item_img marginTop40" src="./img/hangyeitem.png" alt="">
+                </div>
+                <!-- 行业认可 结束-->
+
+            </div>
+            <!-- 案例展示 结束-->
+
+        </div>
+        <!-- 内容 结束-->
+
+        <!-- 底部 -->
+        <div class="bottom_nav">
+            <div class="row container foot_tab">
+                <div class="foot_tab_service col-sm-3 col-xs-6">
+                    <ul>
+                        <li class="foot_tab_title">
+                            <img class="fangkuai_icon" src="./img/fangkuai.png" alt="">
+                            客服中心
+                        </li>
+                        <li>
+                            <a href="#">帮助中心</a>
+                        </li>
+                        <li>
+                            <a href="#">投诉中心</a>
+                        </li>
+                        <li>
+                            <a href="#">在线问答</a>
+                        </li>
+                        <li>
+                            <a href="#">售后支持</a>
+                        </li>
+                        <li>
+                            <a href="#">规则中心</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foot_tab_about col-sm-3 col-xs-6">
+                    <ul>
+                        <li class="foot_tab_title">
+                            <img class="fangkuai_icon" src="./img/fangkuai.png" alt="">
+                            关于我们
+                        </li>
+                        <li>
+                            <a href="#">公司简介</a>
+                        </li>
+                        <li>
+                            <a href="#">公司历程</a>
+                        </li>
+                        <li>
+                            <a href="#">大数据应用</a>
+                        </li>
+                        <li>
+                            <a href="#">加入我们</a>
+                        </li>
+                        <li>
+                            <a href="#">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foot_tab_cooperation col-sm-3 col-xs-6">
+                    <ul>
+                        <li class="foot_tab_title">
+                            <img class="fangkuai_icon" src="./img/fangkuai.png" alt="">
+                            商务合作
+                        </li>
+                        <li>
+                            <a href="#">成为服务者</a>
+                        </li>
+                        <li>
+                            <a href="#">人才招聘</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foot_tab_contact col-sm-3 col-xs-6">
+                    <ul>
+                        <li class="foot_tab_title">
+                            <img class="fangkuai_icon" src="./img/fangkuai.png" alt="">
+                            联系我们
+                        </li>
+                        <li>电话: +021-67716650</li>
+                        <li>邮箱: asscorg@163.com</li>
+                        <li>地址: 上海市嘉定区阳光大厦1803号</li>
+                    </ul>
+                    <div class="three_icon">
+                        <img class="wechat_icon" src="./img/wechat.png" alt="">
+                        <img class="qq_icon" src="./img/qq.png" alt="">
+                        <img class="weibo_icon" src="./img/weibo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_site">
+            <span class="records_txt">Copyright 2018-2020 assc.org.cn | 上海服务有限公司 | 陕ICP备14020801号</span>
+        </div>
+        <!-- 底部 结束-->
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
